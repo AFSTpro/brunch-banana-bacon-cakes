@@ -1,12 +1,12 @@
 {
-    "author": "Your Name",
-    "name": "package-name",
+    "author": "Xzuku Pixi",
+    "name": "Octrozil Pineapple",
     "description": "Package description",
     "version": "0.0.1",
-    "homepage": "",
+    "homepage": "http://octrozil.com",
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "http://octrozil.github.io"
     },
     "engines": {
         "node": "0.10.x",
