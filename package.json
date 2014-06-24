@@ -1,12 +1,12 @@
 {
     "author": "Xzuku Pixi",
-    "name": "Octrozil Pineapple",
-    "description": "Package description",
+    "name": "AFSTpro",
+    "description": "Brunch Skeleton Build based on Pineapple",
     "version": "0.0.1",
-    "homepage": "http://octrozil.com",
+    "homepage": "http://afst.pro",
     "repository": {
         "type": "git",
-        "url": "http://octrozil.github.io"
+        "url": "http://AFSTpro.github.io"
     },
     "engines": {
         "node": "0.10.x",
