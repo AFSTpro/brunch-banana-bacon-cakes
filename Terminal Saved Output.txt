@@ -1,0 +1,226 @@
+Last login: Mon Jun 30 17:31:32 on console
+NaoPixi:AFSTpro.github.io naopixi$ git init
+Reinitialized existing Git repository in /Users/naopixi/Creative Cloud Files/github/AFSTpro.github.io/.git/
+NaoPixi:AFSTpro.github.io naopixi$ git remote origin
+error: Unknown subcommand: origin
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags|--no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | -d | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+NaoPixi:AFSTpro.github.io naopixi$ git remote add origin https://github.com/AFSTpro/brunch-banana-bacon-cakes.git
+fatal: remote origin already exists.
+NaoPixi:AFSTpro.github.io naopixi$ git remote push https://github.com/AFSTpro/brunch-banana-bacon-cakes.git
+error: Unknown subcommand: push
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags|--no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | -d | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+NaoPixi:AFSTpro.github.io naopixi$ git remote add https://github.com/AFSTpro/brunch-banana-bacon-cakes.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+NaoPixi:AFSTpro.github.io naopixi$ git push "/Users/naopixi/Creative Cloud Files/github/brunch-banana-bacon-cakes" https://github.com/AFSTpro/brunch-banana-bacon-cakes.git
+fatal: remote part of refspec is not a valid name in https://github.com/AFSTpro/brunch-banana-bacon-cakes.git
+NaoPixi:AFSTpro.github.io naopixi$ 
+  [Restored]
+NaoPixi:AFSTpro.github.io naopixi$ git --mirror fetch https://github.com/AFSTpro/brunch-banana-bacon-cakes.git push "/Users/naopixi/Creative Cloud Files/github/brunch-banana-bacon-cakes" 
+Unknown option: --mirror
+usage: git [--version] [--help] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p|--paginate|--no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+NaoPixi:AFSTpro.github.io naopixi$ git remote --help
+NaoPixi:AFSTpro.github.io naopixi$ git -f https://github.com/AFSTpro/brunch-banana-bacon-cakes.git
+Unknown option: -f
+usage: git [--version] [--help] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p|--paginate|--no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+NaoPixi:AFSTpro.github.io naopixi$ git -f https://github.com/AFSTpro/brunch-banana-bacon-cakes
+Unknown option: -f
+usage: git [--version] [--help] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p|--paginate|--no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+NaoPixi:AFSTpro.github.io naopixi$ git --fetch https://github.com/AFSTpro/brunch-banana-bacon-cakes
+Unknown option: --fetch
+usage: git [--version] [--help] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p|--paginate|--no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+NaoPixi:AFSTpro.github.io naopixi$ git --git-dir=https://github.com/AFSTpro/brunch-banana-bacon-cakes
+usage: git [--version] [--help] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p|--paginate|--no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+The most commonly used git commands are:
+   add        Add file contents to the index
+   bisect     Find by binary search the change that introduced a bug
+   branch     List, create, or delete branches
+   checkout   Checkout a branch or paths to the working tree
+   clone      Clone a repository into a new directory
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   fetch      Download objects and refs from another repository
+   grep       Print lines matching a pattern
+   init       Create an empty Git repository or reinitialize an existing one
+   log        Show commit logs
+   merge      Join two or more development histories together
+   mv         Move or rename a file, a directory, or a symlink
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+   rebase     Forward-port local commits to the updated upstream head
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+   show       Show various types of objects
+   status     Show the working tree status
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+'git help -a' and 'git help -g' lists available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+NaoPixi:AFSTpro.github.io naopixi$ git init https://github.com/AFSTpro/brunch-banana-bacon-cakes
+Initialized empty Git repository in /Users/naopixi/Creative Cloud Files/github/AFSTpro.github.io/https:/github.com/AFSTpro/brunch-banana-bacon-cakes/.git/
+NaoPixi:AFSTpro.github.io naopixi$ git checkout
+NaoPixi:AFSTpro.github.io naopixi$ rm https://github.com/AFSTpro/brunch-banana-bacon-cakes
+rm: https://github.com/AFSTpro/brunch-banana-bacon-cakes: is a directory
+NaoPixi:AFSTpro.github.io naopixi$ git rebase 
+Current branch gh-pages is up to date.
+NaoPixi:AFSTpro.github.io naopixi$ cd /Users/naopixi/Creative\ Cloud\ Files/github/brunch-banana-bacon-cakes 
+NaoPixi:brunch-banana-bacon-cakes naopixi$ git push
+Username for 'https://github.com': xzuku
+Password for 'https://xzuku@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/AFSTpro/AFSTpro.github.io.git/'
+NaoPixi:brunch-banana-bacon-cakes naopixi$ branch
+-bash: branch: command not found
+NaoPixi:brunch-banana-bacon-cakes naopixi$ git init
+Reinitialized existing Git repository in /Users/naopixi/Creative Cloud Files/github/brunch-banana-bacon-cakes/.git/
+NaoPixi:brunch-banana-bacon-cakes naopixi$ git push
+Username for 'https://github.com': xzuku
+Password for 'https://xzuku@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/AFSTpro/AFSTpro.github.io.git/'
+NaoPixi:brunch-banana-bacon-cakes naopixi$ git push
+Username for 'https://github.com': xzuku
+Password for 'https://xzuku@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/AFSTpro/AFSTpro.github.io.git/'
+NaoPixi:brunch-banana-bacon-cakes naopixi$ git push
+Username for 'https://github.com': AFSTpro
+Password for 'https://AFSTpro@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/AFSTpro/AFSTpro.github.io.git/'
+NaoPixi:brunch-banana-bacon-cakes naopixi$ git update
+git: 'update' is not a git command. See 'git --help'.
+
+Did you mean this?
+	update-ref
+NaoPixi:brunch-banana-bacon-cakes naopixi$ git upgrade
+git: 'upgrade' is not a git command. See 'git --help'.
+NaoPixi:brunch-banana-bacon-cakes naopixi$ git --update
+Unknown option: --update
+usage: git [--version] [--help] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p|--paginate|--no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+NaoPixi:brunch-banana-bacon-cakes naopixi$ git --upgrade
+Unknown option: --upgrade
+usage: git [--version] [--help] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p|--paginate|--no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+NaoPixi:brunch-banana-bacon-cakes naopixi$ git --version
+git version 1.8.4
+NaoPixi:brunch-banana-bacon-cakes naopixi$ git init
+Reinitialized existing Git repository in /Users/naopixi/Creative Cloud Files/github/brunch-banana-bacon-cakes/.git/
+NaoPixi:brunch-banana-bacon-cakes naopixi$ git rebase
+Cannot rebase: You have unstaged changes.
+Please commit or stash them.
+NaoPixi:brunch-banana-bacon-cakes naopixi$ git commit
+# On branch gh-pages
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   app/assets/img/browser-window-1.png
+#	modified:   app/assets/img/browser-window-2.png
+#	modified:   app/assets/img/browser-window-3.png
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+NaoPixi:brunch-banana-bacon-cakes naopixi$ git add app/assets/img/browser-window-1.png
+NaoPixi:brunch-banana-bacon-cakes naopixi$ git add app/assets/img/browser-window-2.png
+NaoPixi:brunch-banana-bacon-cakes naopixi$ git add app/assets/img/browser-window-3.png
+NaoPixi:brunch-banana-bacon-cakes naopixi$ git commit
+
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch gh-pages
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#       modified:   app/assets/img/browser-window-1.png
+#       modified:   app/assets/img/browser-window-2.png
+#       modified:   app/assets/img/browser-window-3.png
+
+Updates:
+
+        modified:   app/assets/img/browser-window-1.png
+        modified:   app/assets/img/browser-window-2.png
+        modified:   app/assets/img/browser-window-3.png 
+ 
+~                                                                                                                  
+~                                                                                                                  
+~                                                                                                                  
+~                                                                                                                  
+~                                                                                                                  
+~                                                                                                                  
+~                                                                                                                  
+~                                                                                                                  
+~                                                                                                                  
+~                                                                                                                  
+~                                                                                                                  
+~                                                                                                                  
+~                                                                                                                  
+~                                                                                                                  
+~                                                                                                                  
+~                                                                                                                  
+~                                                                                                                  
+
