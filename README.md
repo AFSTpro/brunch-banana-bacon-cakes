@@ -17,7 +17,7 @@ A [Brunch](http://brunch.io/) skeleton full of yummy cake!
 * [Font Awesome](http://fortawesome.github.io/Font-Awesome/) v4.0.x
 * [Handlebars](http://handlebarsjs.com/) v1.0.x
 * [jQuery](http://jquery.com/) v1.11.x
-* [jQuery](http://jquerymobile.com/) v1.4.x
+* [jQuery Mobile](http://jquerymobile.com/) v1.4.x
 * [Marionette](http://marionettejs.com/) v1.8.x
 * [Swag](http://elving.github.com/swag/) v0.5.x
 * [Underscore](http://documentcloud.github.io/underscore/) v1.6.x
