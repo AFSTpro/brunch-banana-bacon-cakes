@@ -1,4 +1,4 @@
-# brunch with banana bacon cakes
+# [brunch with banana bacon cakes](http://afstpro.github.io)
 
 ![banana bacon cakes](app/assets/img/browser-window-2.png)
 
