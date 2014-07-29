@@ -1,9 +1,9 @@
 {
     "author": "Xzuku Pixi",
-    "name": "AFSTpro",
+    "name": "Brunch Banana Bacon Cakes",
     "description": "Brunch Skeleton build based on pineapple-in-a-can",
     "version": "2.0.1",
-    "homepage": "afst.pro",
+    "homepage": "gist.afst.pro",
     "repository": {
         "type": "git",
         "url": "AFSTpro.github.io"
@@ -32,5 +32,6 @@
     "main": "index.js",
     "directories": {
         "test": "test"
+        "public": "app"
     }
 }
