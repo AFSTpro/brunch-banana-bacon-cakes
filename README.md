@@ -1,11 +1,16 @@
-# Pineapple in a Can
+<<<<<<< HEAD
+# banana bacon cakes
 
-![Pinapple in a Can](app/assets/img/browser-window-2.png)
+![banana bacon cakes](app/assets/img/browser-window-2.png)
+=======
+# [brunch with banana bacon cakes](http://brunchFAST.github.io/)
+>>>>>>> FETCH_HEAD
 
+![banana bacon cakes](app/assets/img/browser-window-2.png)
 > Furnished!
 
 ## Features
-A simple [Brunch](http://brunch.io/) skeleton chock full of yummy goodness!
+A [Brunch](http://brunch.io/) skeleton full of yummy cake!
 
 ### Languages
 * [JavaScript](http://www.codecademy.com/tracks/javascript)
@@ -17,6 +22,11 @@ A simple [Brunch](http://brunch.io/) skeleton chock full of yummy goodness!
 * [Font Awesome](http://fortawesome.github.io/Font-Awesome/) v4.0.x
 * [Handlebars](http://handlebarsjs.com/) v1.0.x
 * [jQuery](http://jquery.com/) v1.11.x
+<<<<<<< HEAD
+* [jQuery](http://jquerymobile.com/) v1.4.x
+=======
+* [jQuery Mobile](http://jquerymobile.com/) v1.4.x
+>>>>>>> FETCH_HEAD
 * [Marionette](http://marionettejs.com/) v1.8.x
 * [Swag](http://elving.github.com/swag/) v0.5.x
 * [Underscore](http://documentcloud.github.io/underscore/) v1.6.x
@@ -33,20 +43,20 @@ A simple [Brunch](http://brunch.io/) skeleton chock full of yummy goodness!
 ## Getting started
 Requires [Brunch](http://brunch.io/) 1.7.x
 
-    $ brunch new git://github.com/timebox-designs/pineapple-in-a-can.git [optional-output-dir]
+    $ brunch new git://github.com/AFSTpro/brunch-banana-bacon-cakes.git [optional-output-dir]
     $ cd [optional-output-dir]
     $ brunch w -s
 
 or
 
-    $ git clone git://github.com/timebox-designs/pineapple-in-a-can.git
+    $ git clone git://github.com/AFSTpro/brunch-banana-bacon-cakes.git
     $ npm install
     $ brunch w -s
 
 ## License
 The MIT License (MIT)
 
-Copyright (c) 2013 timebox-designs
+Copyright (c) 2014 Xzuku Pixi
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
