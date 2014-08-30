@@ -1,9 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # banana bacon cakes
 
 ![banana bacon cakes](app/assets/img/browser-window-2.png)
 =======
 # [brunch with banana bacon cakes](http://brunchFAST.github.io/)
+>>>>>>> FETCH_HEAD
+=======
+# [brunch with banana bacon cakes](http://AFSTpro.github.io/)
 >>>>>>> FETCH_HEAD
 
 ![banana bacon cakes](app/assets/img/browser-window-2.png)
@@ -23,7 +27,11 @@ A [Brunch](http://brunch.io/) skeleton full of yummy cake!
 * [Handlebars](http://handlebarsjs.com/) v1.0.x
 * [jQuery](http://jquery.com/) v1.11.x
 <<<<<<< HEAD
+<<<<<<< HEAD
 * [jQuery](http://jquerymobile.com/) v1.4.x
+=======
+* [jQuery Mobile](http://jquerymobile.com/) v1.4.x
+>>>>>>> FETCH_HEAD
 =======
 * [jQuery Mobile](http://jquerymobile.com/) v1.4.x
 >>>>>>> FETCH_HEAD
