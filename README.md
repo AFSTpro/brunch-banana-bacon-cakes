@@ -1,16 +1,6 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# banana bacon cakes
 
-![banana bacon cakes](app/assets/img/browser-window-2.png)
-=======
-# [brunch with banana bacon cakes](http://brunchFAST.github.io/)
->>>>>>> FETCH_HEAD
-=======
 # [brunch with banana bacon cakes](http://AFSTpro.github.io/)
->>>>>>> FETCH_HEAD
-
-![banana bacon cakes](app/assets/img/browser-window-2.png)
+[banana bacon cakes](app/assets/img/browser-window-2.png)
 > Furnished!
 
 ## Features
