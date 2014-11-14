@@ -1,6 +1,6 @@
 Brunch Skeleton based on Pineapple in a can
 # [brunch with banana bacon cakes](http://AFSTpro.github.io/)
-[banana bacon cakes](app/assets/img/browser-window-2.png)
+![banana bacon cakes](app/assets/img/browser-window-2.png)
 > Furnished!
 
 ## Features
